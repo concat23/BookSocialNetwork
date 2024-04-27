@@ -1,0 +1,22 @@
+# Spring application configurations
+spring:
+  application:
+    name: BookSocialNetwork
+
+# DataSource configurations
+  datasource:
+    url: jdbc:mysql://localhost:3306/your_database_name
+    username: your_database_username
+    password: your_database_password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+# JPA (Java Persistence API) configurations
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update # options: validate, update, create-drop
+    properties:
+      hibernate:
+        show_sql: true # Set to true to enable SQL logging
+        format_sql: true # Set to true to format logged SQL statements
+        use_sql_comments: true # Set to true to include comments in logged SQL

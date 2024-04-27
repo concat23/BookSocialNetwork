@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BooksocialnetworkApplication {
+public class BookSocialNetworkApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BooksocialnetworkApplication.class, args);
+		SpringApplication.run(BookSocialNetworkApplication.class, args);
 	}
 
 }
