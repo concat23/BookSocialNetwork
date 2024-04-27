@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-deploy:
-    name: Build and deploy SpringBoot Book Social Network
+    name: Build and deploy
     runs-on: ubuntu-test
 
     steps:
