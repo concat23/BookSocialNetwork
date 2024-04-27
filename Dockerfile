@@ -2,8 +2,8 @@ FROM openjdk:17-jdk
 
 WORKDIR /app
 
-COPY target/BookSocialNetwork.jar /app/BookSocialNetwork.jar
+COPY target/book-social-network.jar /app/book-social-network.jar
 
 EXPOSE 8080
 
-CMD ["java","-jar","BookSocialNetwork.jar"]
+CMD ["java","-jar","book-social-network.jar"]

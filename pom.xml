@@ -81,7 +81,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>BookSocialNetwork</finalName>
+		<finalName>book-social-network</finalName>
 	</build>
 
 </project>
